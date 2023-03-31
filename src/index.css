@@ -1,0 +1,345 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "gothicA";
+  src: url(/src/assets/fonts/Noto_Sans_KR/NotoSansKR-Medium.otf);
+}
+body {
+  margin: 0;
+  font-family: "gothicA";
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (max-width: 1140px) {
+  #heroDiv {
+    width: 900px !important;
+  }
+  #heroDiv2 {
+    width: 900px !important;
+  }
+  #aboutDiv {
+    width: 900px !important;
+    height: 600px !important;
+  }
+  #menuDiv {
+    width: 900px !important;
+    height: 600px !important;
+  }
+  #specialsDiv {
+    width: 900px !important;
+    height: 650px !important;
+  }
+  #chefsDiv {
+    width: 900px !important;
+    height: 600px !important;
+  }
+  #contactDiv {
+    width: 900px !important;
+    height: 900px !important;
+  }
+  #map {
+    width: 900px !important;
+  }
+  #menuLine {
+    visibility: hidden;
+    position: absolute;
+    bottom: 1px;
+  }
+  #aboutImg {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  #specialsImg {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  #chefsImg {
+    width: 280px !important;
+    height: 320px !important;
+  }
+  #contactIcon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  #contactIconDiv {
+    display: grid;
+  }
+  #contactIconDivChild {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  #heroDiv {
+    place-content: center;
+    width: 100% !important;
+  }
+  #heroDiv2 {
+    text-align: center;
+    place-content: center;
+    width: 100% !important;
+  }
+  #aboutDiv {
+    width: 700px !important;
+    height: 900px !important;
+    display: grid;
+  }
+  #menuDiv {
+    width: 700px !important;
+    height: 800px !important;
+  }
+  #menuIcon {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  #specialsDiv {
+    width: 700px !important;
+    height: 1000px !important;
+  }
+
+  #specialsDivChild {
+    display: grid;
+  }
+
+  #specialMenu {
+    width: 100% !important;
+  }
+
+  #specialBorder {
+    border-style: none;
+  }
+
+  #chefsDiv {
+    width: 700px !important;
+    height: 1800px !important;
+  }
+
+  #chefsDivChildr {
+    display: grid;
+  }
+  #menuDivChild {
+    display: grid;
+    place-items: center;
+    margin-left: -10px;
+  }
+  #menuDivChild1 {
+    margin-right: 0 !important;
+  }
+  #menuDivChild2 {
+    margin-left: 0 !important;
+  }
+  #specialInfo {
+    width: 100% !important;
+  }
+  #special1 {
+    display: grid;
+  }
+  #specialsChild {
+    width: 100% !important;
+    margin-top: 450px;
+  }
+
+  #contactDiv {
+    width: 700px !important;
+    height: 900px !important;
+  }
+  #map {
+    width: 700px !important;
+  }
+  #menuLine {
+    visibility: hidden;
+    position: absolute;
+    bottom: 1px;
+  }
+
+  #aboutText {
+    margin-top: 600px;
+  }
+
+  #aboutImg {
+    margin-top: -800px;
+    width: 700px !important;
+    height: 500px !important;
+  }
+  #specialsImg {
+    width: 400px !important;
+    height: 400px !important;
+    margin-top: -540px;
+  }
+  #chefsImg {
+    width: 700px !important;
+    height: 500px !important;
+    margin-top: 10px;
+  }
+  #contactIcon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  #contactIconDiv {
+    display: grid;
+  }
+  #contactIconDivChild {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #heroDivText {
+    font-size: 23px !important;
+  }
+  #heroDivText2 {
+    font-size: 18px !important;
+  }
+  #heroDiv {
+    place-content: center;
+    width: 100% !important;
+  }
+  #heroDiv2 {
+    text-align: center;
+    place-content: center;
+    width: 100% !important;
+  }
+
+  #aboutDiv {
+    width: 350px !important;
+    height: 750px !important;
+    display: grid;
+  }
+  #menuDiv {
+    width: 350px !important;
+    height: 600px !important;
+  }
+  #menuIcon {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  #menuDivTest {
+    width: 350px;
+  }
+
+  #specialsDiv {
+    width: 350px !important;
+    height: 1000px !important;
+  }
+
+  #specialsDivChild {
+    display: grid;
+  }
+
+  #specialMenu {
+    width: 100% !important;
+  }
+
+  #specialBorder {
+    border-style: none;
+  }
+
+  #chefsDiv {
+    width: 350px !important;
+    height: 1450px !important;
+  }
+
+  .chefInfo1 {
+    opacity: 1 !important;
+    left: 20px !important;
+  }
+
+  .chef1 {
+    background-color: rgba(66, 66, 66, 0.5) !important;
+    background-blend-mode: multiply !important;
+  }
+
+  #chefsDivChildr {
+    display: grid;
+  }
+  #menuDivChild {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-left: -10px;
+  }
+  #menuDivChild1 {
+    margin-right: 0 !important;
+    width: 90% !important;
+  }
+  #menuDivChild2 {
+    margin-left: 0 !important;
+    width: 90% !important;
+  }
+
+  #menuText {
+    font-size: 14px;
+  }
+
+  #specialInfo {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  #specialInfo2 {
+    margin-left: 0px !important;
+  }
+  #special1 {
+    display: grid;
+  }
+  #specialsChild {
+    width: 100% !important;
+    margin-top: 450px;
+  }
+
+  #contactDiv {
+    width: 350px !important;
+    height: 900px !important;
+  }
+  #map {
+    width: 350px !important;
+    height: 400px !important;
+  }
+  #menuLine {
+    visibility: hidden;
+    position: absolute;
+    bottom: 1px;
+  }
+
+  #aboutText {
+    margin-top: 400px;
+    width: 350px !important;
+  }
+
+  #aboutImg {
+    margin-top: -700px;
+    width: 350px !important;
+    height: 350px !important;
+  }
+  #specialsImg {
+    width: 350px !important;
+    height: 350px !important;
+    margin-top: -540px;
+  }
+  #chefsImg {
+    width: 350px !important;
+    height: 400px !important;
+    margin-top: 10px !important;
+  }
+  #contactIcon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  #contactIconDiv {
+    display: grid;
+  }
+  #contactIconDivChild {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+} ;

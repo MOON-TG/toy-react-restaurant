@@ -1,0 +1,23 @@
+.chef1:hover .chefInfo1 {
+  opacity: 1;
+  transition-duration: 0.3s;
+  right: 10px;
+}
+
+.chef1 {
+  background-color: rgb(255, 255, 255);
+  background-blend-mode: multiply;
+  transition-duration: 0.3s;
+}
+
+.chef1:hover {
+  background-color: rgba(66, 66, 66, 0.5);
+  background-blend-mode: multiply;
+  transition-duration: 0.3s;
+}
+
+.chefInfo1 {
+  right: -20px;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
